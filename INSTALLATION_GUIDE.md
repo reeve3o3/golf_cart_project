@@ -4,14 +4,14 @@
 
 ### 硬體需求
 - **Raspberry Pi 4** (建議4GB RAM以上)
-- **UWB模組** UWB-X2-AOA-N(GW) (支援UART通訊)
+- **UWB模組** DW1000 (支援UART通訊)
 - **馬達驅動板** (支援GPIO控制)
 - **Micro SD卡** (32GB以上，Class 10)
 - **電源供應** (5V 3A USB-C + UWB模組5V/1A)
 
 ### UWB模組規格確認
 ```
-型號: UWB-X2-AOA-N(GW)
+型號: DW1000
 尺寸: 80×55mm
 供電需求: DC5V/1A
 通訊接口: TTL3.3V UART
@@ -30,11 +30,11 @@
 
 ## 硬體安裝
 
-### 1. UWB模組連接 (UWB-X2-AOA-N(GW))
+### 1. UWB模組連接 (DW1000)
 
 #### 電源與信號連接
 ```
-Raspberry Pi 4        UWB-X2-AOA-N(GW)
+Raspberry Pi 4        DW1000
 GPIO 14 (TXD)    ←→   RX (TTL3.3V)
 GPIO 15 (RXD)    ←→   TX (TTL3.3V)
 5V Power         ←→   VCC (DC5V/1A)
