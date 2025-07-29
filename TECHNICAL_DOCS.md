@@ -139,9 +139,9 @@ def get_turn_interval(self, angle, distance):
 
 **設計目的**: 處理UWB UART通訊和數據解析
 
-#### UWB模組規格 (UWB-X2-AOA-N(GW))
+#### UWB模組規格 (DW1000)
 ```
-型號: UWB-X2-AOA-N(GW)
+型號: DW1000
 尺寸: 80×55mm  
 工作頻段: 6.5GHz
 供電需求: DC5V/1A
