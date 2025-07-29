@@ -15,9 +15,9 @@ My graduate school recommendation materials and projects
 - **執行器**: 高爾夫球袋車的馬達系統（GPIO控制前進、左轉、右轉、停止）
 - **通訊接口**: UART (/dev/ttyS0, 115200 baud)
 
-### UWB模組規格 (UWB-X2-AOA-N(GW))
+### UWB模組規格 (DW1000)
 ```
-型號: UWB-X2-AOA-N(GW)
+型號: DW1000
 尺寸: 80×55mm
 天線: PCB天線
 供電: DC5V/1A
