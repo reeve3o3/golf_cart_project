@@ -130,23 +130,6 @@ console=serial0,115200
 sudo systemctl disable serial-getty@ttyS0.service
 ```
 
-### 3. GPIO權限設置
-
-#### 添加用戶到gpio群組
-```bash
-sudo usermod -a -G gpio $USER
-sudo usermod -a -G dialout $USER
-```
-
-#### 設置設備權限
-```bash
-# 設置GPIO權限
-sudo chmod 666 /dev/gpiomem
-
-# 設置UART權限
-sudo chmod 666 /dev/ttyS0
-```
-
 ## 軟體安裝
 
 ### 1. 更新系統
