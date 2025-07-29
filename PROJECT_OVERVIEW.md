@@ -65,7 +65,7 @@
 
 ### 硬體準備
 1. Raspberry Pi 4 + SD卡(32GB+)
-2. UWB-X2-AOA-N(GW)模組連接到UART接口(/dev/ttyS0)
+2. DW1000模組連接到UART接口(/dev/ttyS0)
    - 規格: 6.5GHz, 100Hz更新, ±5°角度精度, ±10cm距離精度
    - 供電: 5V/1A, TTL3.3V UART輸出
 3. 馬達驅動板連接到GPIO(18,23,24,25)
