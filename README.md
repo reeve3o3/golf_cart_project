@@ -1,5 +1,4 @@
 # My-Projects
-My graduate school recommendation materials and projects
 =======
 # UWB高爾夫球袋車自走程式 - Raspberry Pi 4
 
